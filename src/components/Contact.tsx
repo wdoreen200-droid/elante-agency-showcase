@@ -210,15 +210,15 @@ const Contact = () => {
             </Card>
             
             {/* Response Time */}
-            <Card className="bg-gradient-primary text-white shadow-elegant">
+            <Card className="bg-gradient-primary text-white shadow-elegant border-primary">
               <CardContent className="p-6">
                 <div className="text-center">
                   <h3 className="text-xl font-bold mb-2">Quick Response Guarantee</h3>
-                  <p className="text-blue-100 mb-4">
+                  <p className="text-white/90 mb-4">
                     We respond to all demo requests within 2 hours during business hours
                   </p>
                   <div className="text-3xl font-bold">⚡ 2 Hours</div>
-                  <div className="text-blue-100">Average Response Time</div>
+                  <div className="text-white/80">Average Response Time</div>
                 </div>
               </CardContent>
             </Card>

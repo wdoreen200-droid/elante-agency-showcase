@@ -21,12 +21,12 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             <span className="block">{companyInfo.name}</span>
-            <span className="block text-2xl md:text-3xl lg:text-4xl font-medium text-blue-100 mt-4">
+            <span className="block text-2xl md:text-3xl lg:text-4xl font-medium text-white/90 mt-4">
               {companyInfo.tagline}
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto leading-relaxed">
             {companyInfo.description}
           </p>
           
@@ -55,19 +55,19 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
-              <div className="text-blue-100">Projects Delivered</div>
+              <div className="text-white/80">Projects Delivered</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-white mb-2">98%</div>
-              <div className="text-blue-100">Client Satisfaction</div>
+              <div className="text-white/80">Client Satisfaction</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-white mb-2">50+</div>
-              <div className="text-blue-100">Team Experts</div>
+              <div className="text-white/80">Team Experts</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-white mb-2">24/7</div>
-              <div className="text-blue-100">Support</div>
+              <div className="text-white/80">Support</div>
             </div>
           </div>
         </div>
@@ -75,8 +75,8 @@ const Hero = () => {
       
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white/60 rounded-full mt-2 animate-bounce" />
+        <div className="w-6 h-10 border-2 border-white/40 rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-white/70 rounded-full mt-2 animate-bounce" />
         </div>
       </div>
     </section>
